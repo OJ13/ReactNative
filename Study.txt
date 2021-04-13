@@ -1,0 +1,9 @@
+React Native
+
+O que é React Native?
+Temos uma biblioteca central chamada React (ela tem duas frentes) - React DOM e React Native,
+a DOM é para Web em geral e a Native é para Mobile.
+O React Native funciona, com 2 partes:
+ -> UI - Interface Gráfica, desenvolvida em JSX, vai gerar componentes nativos IOS e Android
+ -> JS - JavaScript(Lógica), vai executar em runtimes em WebKit(IOS) e V8(Android), e a 
+         comunicação com os recursos nativos vai ser acessado via Web Socket
