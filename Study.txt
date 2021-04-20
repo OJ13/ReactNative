@@ -20,3 +20,8 @@ Init Projeto -> 'npx react-native init AwesomeProject'
 Executando seu projeto React Native
 Vá até a pasta do projeto, e execute o comando: 'npx react-native start'
 E em seguida com a AVD já ativa execute o comando: 'npx react-native run-android'
+
+Criando novo projeto
+Pra isso dentro da pasta onde queremos iniciar o projeto, executamos o comando:
+'npx react-native init {NomeDoProjeto}'
+O projeto é todo criado, pasta tudo certinho.
