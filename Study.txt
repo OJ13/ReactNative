@@ -17,6 +17,11 @@ Instale o Android Studio (com SDK e AVD (Android Virtual Device))
 Configurar variáveis de ambiente (Sdk e plataform-tools)
 Init Projeto -> 'npx react-native init AwesomeProject'
 
+Instalando o Expo
+Com o node instlando execute o 'npm install -g expo-cli' (siga a documentação oficial),
+e instale no celular o Expo também, ambos tem que estar na mesma rede. Para quando iniarmos o expo,
+consiga subir a aplicação no host do expo no celular.
+
 Executando seu projeto React Native
 Vá até a pasta do projeto, e execute o comando: 'npx react-native start'
 E em seguida com a AVD já ativa execute o comando: 'npx react-native run-android'
@@ -25,3 +30,16 @@ Criando novo projeto
 Pra isso dentro da pasta onde queremos iniciar o projeto, executamos o comando:
 'npx react-native init {NomeDoProjeto}'
 O projeto é todo criado, pasta tudo certinho.
+
+Criando um no projeto (Expo)
+Com o Expo devidamente instalado, execute o comado(na pasta desejada): 'expo init {NomeDoProjeto}',
+depois dentro da pasta do projeto, usamos o 'expo start' para iniciar a aplicação, a mesma vai gerar um 
+QRCode para parearmos com o celular(lembre-se tem que estar na mesma rede)
+
+
+
+
+
+
+
+
