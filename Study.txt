@@ -36,6 +36,34 @@ Com o Expo devidamente instalado, execute o comado(na pasta desejada): 'expo ini
 depois dentro da pasta do projeto, usamos o 'expo start' para iniciar a aplicação, a mesma vai gerar um 
 QRCode para parearmos com o celular(lembre-se tem que estar na mesma rede)
 
+Estrutura de Projeto
+A criar o projto, temos alguns arquivos iniciais:
+A porta de entrada do aplicativo, é o arquivo 'index.js', o react-native usa react por debaixo, ela é registrada
+nesse arquivo. Aqui é importado módulos do EcmaScript, e o react-native
+Lembre-se que ela é toda componentizada
+Temos as pastas dos projetos (ios e andorid) que foi gerado.
+Temos pasta testes e node_modules
+Temos um pasta de testes
+
+Vamos iniciar criando uma pasta 'src', para colocarmos nossos códigos e componentes
+Criamos um novo App.js dentro dessa pasta src e então podemos apagar o App.js de padrão e apontar em index.js o nossos
+novo arquivo padrão
+
+SafeAreaView
+ - No lugar de uma View, vamos utilizar esse recurso, que ele utiliza a area total de visualização do celular,
+ não importa qual será o device, ele vai ignorar as bordas padrão como aquela superior onde fica o relógio
+
+Primeiro Componente
+Precisamos criar funções que retoram códigos JSX, é muito semelhante ao html, porém é como se fosse componentes javascript
+Lembre-se para retornar JSX importar React, e React-Native em cada módulo de componente
+
+
+
+
+
+
+
+
 
 
 
