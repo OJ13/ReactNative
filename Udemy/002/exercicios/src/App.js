@@ -1,9 +1,17 @@
 /* eslint-disable prettier/prettier */
-import React from 'react'
-import { Text } from 'react-native'
+import React from 'react';
+import { SafeAreaView } from 'react-native';
+// import { Text } from 'react-native';
+import { Primeiro } from './components/Primeiro';
 
-function App(){
-    return <Text>Meu Primeiro Componente</Text>
-}
+// function App() {
+//     return <SafeAreaView><Primeiro></Primeiro></SafeAreaView>;
+// }
 
-export default App
+// export default App;
+
+export default () => (
+    <SafeAreaView>
+        <Primeiro />
+    </SafeAreaView>
+);
