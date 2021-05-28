@@ -55,7 +55,10 @@ SafeAreaView
 
 Primeiro Componente
 Precisamos criar funções que retoram códigos JSX, é muito semelhante ao html, porém é como se fosse componentes javascript
-Lembre-se para retornar JSX importar React, e React-Native em cada módulo de componente
+Lembre-se para retornar JSX importar React, e React-Native em cada módulo de componente.
+Injetamos JSX em componentes, um dentro do outro.
+Para exportarmos funções, nós temos que nomear a função, a menos que seja por default, ai tudo bem, não precisamos 
+nomear, e podemos dar qualquer nome na hora de importar o componente
 
 
 
