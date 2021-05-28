@@ -2,4 +2,5 @@
 import React from 'react';
 import  { Text } from 'react-native';
 
-export default () => <Text>Primeiro Componente APP!</Text>;
+export default () => <Text>Primeiro Componente APP!</Text>
+

@@ -2,7 +2,7 @@
 import React from 'react';
 import { SafeAreaView } from 'react-native';
 // import { Text } from 'react-native';
-import { Primeiro } from './components/Primeiro';
+import  Primeiro from './components/Primeiro';
 
 // function App() {
 //     return <SafeAreaView><Primeiro></Primeiro></SafeAreaView>;
