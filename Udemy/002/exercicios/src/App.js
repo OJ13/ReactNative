@@ -1,8 +1,8 @@
 /* eslint-disable prettier/prettier */
 import React from 'react';
-import { SafeAreaView, Text } from 'react-native';
+import { SafeAreaView, Text, StyleSheet } from 'react-native';
 // import { Text } from 'react-native';
-import CompPadrao, { Comp1, Comp2 } from './components/Multi'
+import CompPadrao, { Comp1, Comp2 } from './components/Multi';
 import  Primeiro from './components/Primeiro';
 
 // function App() {
@@ -12,7 +12,7 @@ import  Primeiro from './components/Primeiro';
 // export default App;
 
 export default () => (
-    <SafeAreaView>
+    <SafeAreaView style={style.App}>
         <CompPadrao/>
         <Comp1 />
         <Comp2 />
@@ -22,3 +22,11 @@ export default () => (
         <Primeiro />
     </SafeAreaView>
 );
+
+const style = StyleSheet.create({
+    App: {
+        flexGrow: 1,
+        justifyContent: 'center',
+        alignItems: 'center'
+    }
+})

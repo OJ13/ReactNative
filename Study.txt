@@ -60,6 +60,13 @@ Injetamos JSX em componentes, um dentro do outro.
 Para exportarmos funções, nós temos que nomear a função, a menos que seja por default, ai tudo bem, não precisamos 
 nomear, e podemos dar qualquer nome na hora de importar o componente
 
+Estilo
+Vamos utilizar 'Flex box' para organizar as telas.
+Usando um componente chamado StyleSheet conseguimos organizar o estilo do nosso compontente com o 'StyleSheet.create' e
+estilizando nosso componente com as propriedades de estilo.
+
+Console.warm
+Para verificar determinados valores, podemos usar "yellow box", é como se fosse um console.log para debugar alguma tela
 
 
 
