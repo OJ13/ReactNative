@@ -68,6 +68,13 @@ estilizando nosso componente com as propriedades de estilo.
 Console.warm
 Para verificar determinados valores, podemos usar "yellow box", é como se fosse um console.log para debugar alguma tela
 
+Parametros entre componentes
+Para passar parametros pelos componentes, na criação do componente, colocamos um parametro no método do componente,( por 
+boas práticas colocamos como 'props') e quando usamos o compoenente em outro lugar, passamos dentro da tag os parametros.
+Para passagem de parametros como objetos ou numeros, passamos via colchetes
+exemplo: MinMax.js
+
+
 
 
 
